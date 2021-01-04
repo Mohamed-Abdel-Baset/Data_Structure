@@ -1,3 +1,10 @@
+/*
+- the main idea here is to loop through the list and edit the pointer of nodes to reverse it's direction while looping so
+eventually each element would point to the element before instead of after. we would use three pointer while looping, one
+for current node , one for previous node and one for next node to save the address of next element after reversing and
+enable us to continue looping. the condition of loop end is when current equal to null i.e: we reach the end of the list.
+- this code is valid in case of empty list or list with element only.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 //define list node
